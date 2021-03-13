@@ -2,7 +2,7 @@ const assert = require('assert');
 
 const towelSort = require('./src/index.js');
 
-describe('.towelSort, should perfrom \'towelSort\'', () => {
+describe('.towelSort, should perform \'towelSort\'', () => {
 
   it('Should return empty array if no params passed', () => {
     assert.deepEqual(towelSort(), []);
@@ -42,7 +42,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
     assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12, 16, 15, 14, 13 ]);
   });
 
-  it('should do towelSort correctrly with nonsquare matrix', () => {
+  it('should do towelSort correctly with nonsquare matrix', () => {
     const matrix = [
         [1, 2, 3, 4],
         [5, 6, 7, 8],
